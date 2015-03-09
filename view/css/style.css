@@ -1,0 +1,91 @@
+#calc_response .res-section{
+    padding: 10px;
+    border: solid 2px #eee;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#calc_response #ss,#calc_response #ds,#calc_response #sd,#calc_response #dd{
+    display: block;
+}
+#calc_response h2{
+    border-top:2px dotted #eee;
+    padding-top: 20px;
+    text-align: center;
+}
+#calc_response div{
+    padding: 0px;
+}
+#calc_response .price{
+   display: block;
+   font-size: 20px;
+   margin-bottom: 15px;
+   color: #444;
+}
+#calc_response .roubles{
+    font-weight: bold;
+    color:#c00;
+}
+#calc_response h3{
+    font-size: 22px;
+}
+#calc_wrapper{
+    background: #f7f7f7;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 17px 0px rgba(0, 106, 45, 0.2);
+    box-shadow: 0 0 17px 0px rgba(0, 106, 45, 0.2);
+    max-width: 600px;
+}
+#calc_wrapper .left,#calc_wrapper .right{
+    width: 50%;
+}
+#calc_wrapper #calc_calculate{
+    margin-top: 15px;
+    cursor: pointer;
+    color: #008136;
+    background: #f0e500;
+    -webkit-box-shadow: inset 0px 3px 0px #77b829, 0px 1px 1px 1px rgba(0, 106, 45, 0.2);
+    box-shadow: inset 0px 3px 0px #77b829, 0px 1px 1px 1px rgba(0, 106, 45, 0.2);
+}
+#calc_wrapper label{
+    line-height: 20px;
+}
+#calc_wrapper .right{float:right;}
+#calc_wrapper .left{float:left;}
+#calc_wrapper input{
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+    border: 1px solid #cccccc;
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+#calc_wrapper label{
+    
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 40px;
+    color: #333333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+#features input{
+    float: right;
+    width:120px;
+    margin-right: 200px;
+}
+#features label{
+    float: left;
+}
