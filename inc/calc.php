@@ -1,5 +1,4 @@
 <?php
-include './api.php';
 
 class PecCalcController{
     var $action;
@@ -23,7 +22,7 @@ class PecCalcController{
         $out=$api->searchCity($q);
         return $out;
     }
-    private function pekCalc(){
+    private function pecCalc(){
         $this->json=1;
         $params=$_POST;
         $api=new PecAPI('http://pecom.ru/bitrix/components/pecom/calc/ajax.php');
@@ -35,12 +34,4 @@ class PecCalcController{
         return $out;
     }
 }
-
-$controller=new PekCalcController($_GET['action_calc']);
-if($controller->json){
-    echo(json_encode($controller->data));
-}else{
-    echo($controller->data);
-}
-
 ?>
